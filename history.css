@@ -1,0 +1,96 @@
+body { background-color: rgba(244, 232, 222, 1);
+}
+.header{
+    position: relative;
+    display: flex;
+    width: 428px;
+    height: 56px;
+    background: #A77C5D;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header__icon__svg{
+    position: absolute;
+    left: 16.25px;
+    top: 22.25px;
+    width: 15.5px;
+    height: 11.5px;
+}
+.header__name{
+    position: absolute;
+    left: 48px;
+    top: 14px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #332317;
+}
+.header__plus{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 395px;
+    top: 19px;
+}
+/*section*/
+.history{
+    position: relative;
+}
+.history__today1{
+    position: absolute;
+    display: flex;
+    top: 24px;
+    left: 12px;
+    width: 404px;
+    height: 48px;
+    background: #F4E8DE;
+box-shadow: 0px 1px 0px #A77C5D;
+}
+.history__today2{
+    position: absolute;
+    display: flex;
+    top: 73px;
+    left: 12px;
+    width: 404px;
+    height: 48px;
+    background: #F4E8DE;
+box-shadow: 0px 1px 0px #A77C5D;
+}
+.history__today3{
+    position: absolute;
+    display: flex;
+    top: 123px;
+    left: 12px;
+    width: 404px;
+    height: 48px;
+    background: #F4E8DE;
+box-shadow: 0px 1px 0px #A77C5D;
+}
+.history__today__date{
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #332317;
+    max-width: 81px;
+    max-height: 24px;
+}
+.history__today__svg{
+    position: absolute;
+left: 167px;
+top: 12px;
+width: 70px;
+height: 24px;
+}
+.history__today__solid{
+    position: absolute;
+left: 372.25px;
+top: 14.25px;
+width: 15.5px;
+height: 19.99px;
+}

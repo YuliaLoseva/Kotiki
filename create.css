@@ -1,0 +1,161 @@
+body{
+    background: rgba(244, 232, 222, 1);
+}
+.create{
+position: relative;
+display: flex;
+width: 428px;
+height: 56px;
+background: #A77C5D;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.create__strelka{
+    position: absolute;
+    left: 16px;
+    top: 23px;
+    width: 15px;
+    height: 10.96px;
+}
+.create__txt{
+    position: absolute;
+    left: 48px;
+    top: 14px;
+    font-family: 'Roboto' , sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #332317;
+}
+.newCat{
+    position: relative;
+}
+.newCat__name{
+    position: absolute;
+    left: 12px;
+    top: 24px;
+    box-sizing: border-box;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 16px;
+gap: 12px;
+width: 404px;
+height: 48px;
+background: #F4E8DE;
+border: 1px solid #A77C5D;
+border-radius: 8px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #332317;
+
+opacity: 0.8;
+}
+.newCat_species__sect{
+    /* Input */
+    position: absolute;
+    left: 12px;
+    top: 112px;
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 16px;
+gap: 12px;
+
+width: 404px;
+height: 48px;
+
+/* Color 2 */
+
+background: #F4E8DE;
+/* Color 1 */
+
+border: 1px solid #A77C5D;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+
+/* Color 3 */
+
+color: #332317;
+
+opacity: 0.8;
+}
+.newCat__species__arrow{
+    position: absolute;
+    left: 378px;
+    top: 124px;
+}
+.newCat__date__section{
+    /* Input */
+    position: absolute;
+    left: 12px;
+    top: 200px;
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 16px;
+gap: 12px;
+
+width: 404px;
+height: 48px;
+
+/* Color 2 */
+
+background: #F4E8DE;
+/* Color 1 */
+
+border: 1px solid #A77C5D;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+/* Text Area */
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #332317;
+
+opacity: 0.8;
+}
+.newCat__date__svg{
+    position: absolute;
+    top: 215.25px;
+    left: 381.54px;
+    
+}

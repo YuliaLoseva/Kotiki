@@ -1,0 +1,155 @@
+@media(max-width: 428px) and (max-height: 762px) {
+    background: #F4E8DE;
+}
+.fullPage{
+    position: relative;
+    width: 428px;
+height: 762px;
+color: rgba(244, 232, 222 1);
+}
+.header{
+    position: relative;
+    max-width: 428px;
+    max-height: 56px;
+    display: flex;
+    background: #A77C5D;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header__icon{
+    height: 11.5px;
+    width: 15.5px;
+
+    padding-top: 22.25px;
+    padding-left: 16.25px;
+    padding-bottom: 22.25px;
+}
+.header__icon__polosa{
+    width: 15.5px;
+    height: 1px;
+    background-color: black;
+    margin: 6px 0;
+}
+.header__plus{
+    color: rgba(51, 35, 23, 1);
+    size: 3px;
+    max-width: 18px;
+    max-height: 18px;
+    margin-left: 183px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-right: 15px;
+}
+.header__name{
+    max-width: 164px;
+    max-height: 28px;
+    justify-content: center;
+    color: rgba(51, 35, 23, 1);
+    margin-left: 16.25px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+}
+/* section */
+.fullPage{
+    width: 100%;
+    background: rgba(244, 232, 222, 1);
+    max-width: 428px;
+   max-height: 762px;
+}
+.kotiki__oval{
+display: flex;
+width: 404px;
+height: 108px;
+margin-top: 24px;
+margin-left: 12px;
+margin-right: 12px;
+box-sizing: border-box;
+background: #F4E8DE;
+border: 1px solid #A77C5D;
+box-shadow: 0px 4px 4px #C4C4C4;
+border-radius: 12px;
+}
+.kotiki__name{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #332317;
+}
+.kotiki__odin__rectangle{
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    background: #C4C4C4;
+border: 1px solid #A77C5D;
+border-radius: 24px;
+margin-top: 24px;
+margin-left: 24px;
+margin-bottom: 24px;
+}
+.kotiki__odin__inside{
+   padding: 14px 14px 14px;
+}
+.kotiki__odin__svg{
+width: 32px;
+height: 32px;
+}
+.kotiki__ves{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+.kotiki__ves__name{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #332317;
+}
+.kotiki__ves__svg{
+    width: 70px;
+    height: 24px;
+    margin-top: 4px;
+}
+.kotiki__redo__svg{
+margin-left: 171.25px;
+margin-top: 15.15px;
+margin-right: 16.25px;
+width: 16.5px;
+height: 17.25px;
+}
+.kotiki__redo__date{
+    margin-top: 49.25px;
+    margin-left: 131px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #000000;
+width: 61px;
+height: 14px;
+}
+.kotiki__date{
+    margin-top: 82px;
+    margin-left: 131px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #000000;
+width: 61px;
+height: 14px; 
+}
