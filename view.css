@@ -1,153 +1,144 @@
-body { background-color: rgba(244, 232, 222, 1);
-   }
-.Polimorf{
-    position: relative;
-    width: 428px;
-    height: 56px;
-    background: rgba(167, 124, 93, 1);
-    display: flex;
+body {
+  background-color: rgba(244, 232, 222, 1);
+  display: grid;
+  margin: 0%;
+  padding: 0%;
 }
-.Polimorf__strelka__svg{
-    position: absolute;
-    left: 16px;
-    top: 23px;
-    width: 15px;
-    height: 10.96px;
+.Polimorf {
+  position: relative;
+  width: 428px;
+  height: 56px;
+  background: rgba(167, 124, 93, 1);
+  display: flex;
 }
-.Polimorf__icon__rectangle{
-    position: absolute;
-    width: 36px;
-    height: 36px;
-    background: #C4C4C4;
-border: 1px solid #A77C5D;
-border-radius: 24px;
-left: 48px;
-top: 10px;
+.Polimorf__strelka__svg {
+  position: relative;
+  left: 16px;
+  top: 23px;
+  width: 15px;
+  height: 10.96px;
 }
-.Polimorf__icon__svg{
-    position: absolute;
-    width: 19.2px;
-    height: 19.2px;
-    left: 8.4px;
-    top: 8px;
+.Polimorf__rectangle {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background: #c4c4c4;
+  border: 1px solid #a77c5d;
+  border-radius: 24px;
+  left: 48px;
+  top: 10px;
 }
-.Polimorf__name{
-    position: absolute;
-    left: 98px;
-    top: 14px;
-    font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-color: #332317;
+.Polimorf__icon__svg {
+  position: relative;
+  width: 19.2px;
+  height: 19.2px;
+  left: 8.4px;
+  top: 8px;
 }
-.Polimorf__karandash__svg{
-    position: absolute;
-    left:395.25px;
-    top: 19.5px;
-    max-width: 16.5px;
-    max-height: 17.25px;
+.Polimorf__name {
+  position: relative;
+  left: 98px;
+  top: 14px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #332317;
+}
+.Polimorf__karandash {
+  position: relative;
+  left: 250.25px;
+  top: 19.5px;
+}
+.Polimorf__karandash__svg {
+  max-width: 16.5px;
+  max-height: 17.25px;
 }
 /* body section*/
-.about{
-    position: relative;
+.about {
+  position: relative;
+  width: 428px;
 }
-.about__ves{
-    position: absolute;
-    display: flex;
-    top: 24px;
-    left: 12px;
+.about__ves {
+  position: relative;
+  display: flex;
+  top: 24px;
+  left: 12px;
 }
-.about__ves__svg{
-    position: absolute;
-    left: 107px;
-    width: 70px;
-    height: 24px;
+.about__ves__svg {
+  position: relative;
+  left: 107px;
+  width: 70px;
+  height: 24px;
 }
-.about__dr{
-    position: absolute;
-    display: flex;
-    top: 58px;
-    left: 12px;
+.about__info {
+  position: relative;
+  left: 107px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #332317;
 }
-.about__info{
-    position: absolute;
-    left: 107px;
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #332317;
+.about__text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #332317;
+  width: 40px;
 }
-.about__age{
-    position: absolute;
-    display: flex;
-    top: 92px;
-    left: 12px;
+.navig {
+  position: relative;
+  top: 626px;
+  display: flex;
 }
-.about__who{
-    position: absolute;
-    display: flex;
-    top: 126px;
-    left: 12px;
+.navig__slash {
+  position: relative;
+  width: 428px;
+  height: 0px;
+  left: 0px;
+  top: 626px;
+  border: 1px solid #a77c5d;
 }
-.about__text{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: #332317;
+.navig__home {
+  position: relative;
+  top: 23.46px;
+  left: 119.41px;
 }
-.navig{
-    position: relative;
-    top: 626px;
+.navig__home__svg {
+  width: 33.26px;
+  height: 33.21px;
 }
-.navig__slash{
-    position: absolute;
-width: 428px;
-height: 0px;
-left: 0px;
-top: 0px;
-border: 1px solid #A77C5D;
+.navig__home__txt {
+  max-width: 49px;
+  max-height: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #332317;
 }
-.navig__home{
-    position: absolute;
-    top: 23.46px;
-    left: 119.41px;
+.navig__analitics {
+  position: relative;
+  left: 278px;
+  top: 23.33px;
 }
-.navig__home__svg{
-width: 33.26px;
-height: 33.21px;
+.navig__analitics__svg {
+  width: 28.33px;
+  height: 33.33px;
 }
-.navig__home__txt{
-    max-width: 49px;
-    max-height: 14px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    color: #332317;
-}
-.navig__analitics{
-    position: absolute;
-    left: 278.67px;
-    top: 23.33px;
-}
-.navig__analitics__svg{
-width: 28.33px;
-height: 33.33px;
-}
-.navig__analitics__txt{
-    max-width: 39px;
-    max-height: 14px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    color: #A5A5A5;
+.navig__analitics__txt {
+  max-width: 39px;
+  max-height: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #a5a5a5;
 }

@@ -1,39 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="./pictures/" rel="stylesheet"/>
-    <link href="create.css" rel="stylesheet"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./pictures/" rel="stylesheet" />
+    <link href="create.css" rel="stylesheet" />
     <title>Kotiki</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="create">
-            <img class="create__strelka" src="./pictures/vlevo.svg" alt="svg"/>
-            <div class="create__txt">Create</div>
-        </div>
+      <div class="create">
+        <img class="create__strelka" src="./pictures/vlevo.svg" alt="svg" />
+        <div class="create__txt">Create</div>
+      </div>
     </header>
     <section>
-        <div class="newCat">
+      <div class="newCat">
         <form method="get" class="newCat__forma">
-            <input type="text" name="Name" class="newCat__name" placeholder="Name"/>
-            <br/>
-            <div class="newCat__species">
-                <input type="text" class="newCat_species__sect" name="species" placeholder="Species"/>
-                <img src="./pictures/arrow__down.svg" class="newCat__species__arrow" alt="svg"/>
-            </div>
-            <br/>
-            <div class="newCat__date">
-            <input type="text" class="newCat__date__section" name="Birthday" placeholder="Birthday"/>
-            <img class="newCat__date__svg" src="./pictures/kalendar.svg" alt="svg"/>
-            </div>
+          <input
+            type="text"
+            name="Name"
+            class="newCat__name"
+            placeholder="Name"
+          />
+          <div class="newCat__species">
+            <input
+              type="text"
+              class="newCat_species__sect"
+              name="species"
+              placeholder="Species"
+            />
+            <img
+              src="./pictures/arrow__down.svg"
+              class="newCat__arrow"
+              alt="svg"
+            />
+          </div>
+          <div class="newCat__date">
+            <input
+              type="text"
+              class="newCat__dateSection"
+              name="Birthday"
+              placeholder="Birthday"
+            />
+            <img class="newCat__svg" src="./pictures/kalendar.svg" alt="svg" />
+          </div>
         </form>
-        </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>
